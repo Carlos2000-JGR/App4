@@ -19,14 +19,14 @@ namespace App4
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void buttonClicked(object sender, EventArgs e)
         {
-            if(Entry_Username.Text == "admin" && Entry_Password.Text == "123")
+            if(usernameEntry.Text == "admin" && passwordEntry.Text == "123")
             {
-                DisplayAlert("Welcome Back", Entry_Username.Text, "Ok");
-                Navigation.PushAsync(new RegisterPage());
+                DisplayAlert("Welcome Back", usernameEntry.Text, "Ok");
+                Navigation.PushAsync(new MainPage());
             }
-            else if (Entry_Username.Text == "" && Entry_Password.Text == "")
+            else if (usernameEntry.Text == null && passwordEntry.Text == null)
             {
                 DisplayAlert("Oops..", "Both fields have to be filled out", "Ok");
             }
