@@ -13,10 +13,10 @@
 
 
 
-            <Entry x:Name="Entry_Username" Placeholder="Username" />
+            <Entry x:Name="usernameEntry" Placeholder="Username" />
 
-            <Entry x:Name="Entry_Password" Placeholder="Password" IsPassword="True" />
-            <Button x:Name="Btn_Signin" TextColor="White" BackgroundColor="Red" Text="Sign in" Clicked="Button_Clicked"/>
+            <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" />
+            <Button x:Name="signButton" TextColor="White" BackgroundColor="Red" Text="Sign in" Clicked="buttonClicked"/>
 
 
             <Label HorizontalOptions="Center">

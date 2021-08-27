@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.MainPage">
+
+    <Grid BackgroundColor="Gray" RowSpacing="20" ColumnSpacing="20">
+
+
+        <Button Grid.Row="0" Grid.Column="0" Text="Bars and Hotels" Background="White"/>
+        <Button Grid.Row="0" Grid.Column="1" Text="Fine Dining" Background="White"/>
+        <Button Grid.Row="1" Grid.Column="0" Text="Cafes" Background="White"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="Nearby" Background="White"/>
+        <Button Grid.Row="2" Grid.Column="0" Text="Fast Foods" Background="White"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="Featured Foods" Background="White"/>
+
+    </Grid>
+
+</ContentPage>
